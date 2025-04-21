@@ -178,8 +178,6 @@ if (isset($_POST['comment'])) {
 </form>
 ~~~
 
-![](images/Imagen7.png)
-
 Aunque usar htmlspecialchars() es una buena medida para prevenir ataques XSS, todavía se puede mejorar la
 seguridad y funcionalidad del código con los siguientes puntos:
 
@@ -209,7 +207,7 @@ if (!empty($comment) && strlen($comment) <= 500) {
 
 Evita comentarios vacíos o excesivamente largos (500 caracteres).
 
-![](images/Imagen8.png)
+![](images/Imagen7.png)
 
 **Protección contra inyecciones HTML y JS (XSS)**
 ---
